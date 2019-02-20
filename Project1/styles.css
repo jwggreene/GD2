@@ -2,11 +2,40 @@ img {
 
     display: block;
     margin-left: auto;
-    margin-right: auto;
     width: 100%;
+    align: left;
 }
 
+.body-photo {
+    width: 50%;
+    margin-right: 80%;
+    float: right;
+    margin: 0 10px 10px 0;
+    padding: 5px 0px 20px 20px;
+}
+
+
+blockquote {
+    font-size: 20px;
+    width: 20%;
+    float: left;
+
+    font-weight: bold;
+    padding: 30px 40px 40px 10px;
+    margin: 0 13px 13px 0;
+    border-style: double;
+    border-color: red;
+    border-left: 6px;
+    background-color: #F19D94;
+}
+
+
+
+
+
+
 figcaption {
+    padding: 10px 10px 0 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +43,34 @@ figcaption {
 }
 
 body {
-    background-color: #F1D2C3;
-    width: 800px;
+    background-color: #F2F4E9;
+    font-family: 'roboto';
+    color: #282E33;
+    width: 50%;
     margin: auto;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: bold;
+    font-family: 'roboto'
+
+}
+
+h2 {
+    font-size: 25px;
+    font-style: medium;
+}
+
+h3 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 5px;
+
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: normal;
 }

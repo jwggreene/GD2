@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainimage {
+    background-image: url(Images/TheFavouriteImage.jpg);
+    background-size: cover;
+    position: relative;
+    height: 440px;
+    width: 640px;
+
+
+}
+
+.content {
+    background: linear-gradient(to left, #fff, transparent 85%);
+    width: 640px;
+    height: 100%;
+    /* position: absolute; */
+}
+
+.details {
+
+    position: relative;
+    left: 650px;
+
+
+
+
+
+
+
+    /* position: relative; */
+    padding: 20px;
+    width: 200px;
+
+
+}
+
+
+
+
+h1 {
+    color: #DB5756;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+h2 {
+    color: #DB5756;
+    font-size: 11pt;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+
+p {
+    color: #0B1625;
+    font-size: 11pt;
+    font-weight: 500;
+    /* position: relative; */
+    left: 70px;
+}

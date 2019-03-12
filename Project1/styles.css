@@ -1,0 +1,119 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* main picture */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* body photo */
+
+.body-photo {
+    float: right;
+    margin: 0 10px 10px 0;
+    margin-right: auto;
+    padding: 5px 0 20px 20px;
+    width: 50%;
+}
+
+/* Pull Quote */
+
+blockquote {
+    border-style: double;
+    border-color: black;
+    border-left: 6px;
+    background-color: rgb(255, 227, 224);
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 13px 13px 0;
+    padding: 30px 40px 40px 10px;
+    width: 20%;
+}
+
+
+
+
+/* Main Photo Caption */
+
+figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 0 0;
+}
+
+/* Body Text */
+
+body {
+    background-color: #F2F4E9;
+    color: #282E33;
+    font-family: 'roboto';
+    font-size: 17px;
+    margin: auto;
+    width: 50%;
+}
+
+/* Page Heading */
+
+h1 {
+    font-family: 'roboto';
+    font-size: 40px;
+    font-style: bold;
+}
+
+/* Sub Heading */
+
+h2 {
+    font-size: 25px;
+    font-style: medium;
+
+}
+
+/* Writer Text */
+
+h3 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 5px;
+    padding: 0 0 0 40px;
+}
+
+
+/* Date Text */
+
+h4 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 5px;
+    padding: 0 0 10px 40px;
+
+
+}
+
+figcaption {
+    font-size: 11px;
+    font-style: normal;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+span {
+    color: blue;
+    text-decoration: underline;
+}

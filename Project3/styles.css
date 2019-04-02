@@ -41,13 +41,6 @@ figure {
 
 }
 
-img {
-
-    display: block;
-    padding: 10px;
-    max-width: 100%;
-}
-
 figcaption {
     font-family: 'Noto Sans', sans-serif;
     font-size: 9px;
@@ -55,4 +48,11 @@ figcaption {
 
     background-color: #FFF0A5;
 
+}
+
+img {
+
+    display: block;
+    padding: 10px;
+    max-width: 100%;
 }

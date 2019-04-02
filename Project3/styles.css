@@ -3,6 +3,7 @@
 *::after {
     box-sizing: border-box;
 }
+
 /* main styles*/
 
 body {
@@ -34,6 +35,7 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
 
 }
 
@@ -109,6 +111,7 @@ p {
     padding: 0;
 
 }
+
 /*media queries*/
 
 @media (min-width: 900px) {

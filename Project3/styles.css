@@ -40,8 +40,6 @@ h1 {
 }
 
 .timelineitem {
-
-
     display: inline-block;
     height: 300px;
     margin: 10px;
@@ -119,7 +117,11 @@ p {
         width: 200px;
         height: 200px;
     }
+}
 
-
-
+@media (max-width: 1280px) {
+    .timelineitem {
+        width: 250px;
+        height: 250px;
+    }
 }

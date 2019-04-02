@@ -4,57 +4,45 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #EDF0F1;
-}
 
 .timelineitem {
-    width: 70%;
+    width: 375px;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
 }
 
-header {
-    background-color: #B74926;
-    position: relative;
+body {
+    background-color: #EDF0F1;
+}
 
+header {
+    background-color: #DCE7EA;
+    border-bottom-style: dotted;
+    border-color: black;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
 }
 
 h1 {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
 
 }
 
-h2 {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
-
-}
-
-h3 {
-    margin: 0;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
-    padding: 100px;
-}
-
-.times {
-    position: absolute;
-    margin-right: auto;
-
-    top: 5%;
-}
 
 figure {
+    display: inline-block;
     margin: 10%;
+    background-color: #B93226;
 
-    /* width: 100%; */
-    background-color: #FEE165;
+
 }
 
 img {
-    /* width: 320px; */
+
     display: block;
     padding: 10px;
     max-width: 100%;
@@ -67,9 +55,4 @@ figcaption {
 
     background-color: #FFF0A5;
 
-}
-
-.timelinepictures {
-
-    margin: 0;
 }

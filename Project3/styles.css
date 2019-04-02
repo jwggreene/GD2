@@ -17,8 +17,10 @@ body {
 header {
     background-color: #B74926;
     font-family: 'Noto Sans', sans-serif;
+    margin: 15px;
     min-width: 375px;
-    height: 50px;
+
+    padding: 10px;
     position: relative;
     border-bottom-style: double;
 
@@ -31,7 +33,7 @@ h1 {
     font-size: 35px;
 }
 
-.containter {
+.container {
     text-align: center;
 }
 
@@ -99,6 +101,13 @@ h3 {
     padding: 0;
 }
 
+h4 {
+    color: rgb(255, 219, 219);
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     font-size: 13px;
     margin: 0;
@@ -115,7 +124,9 @@ p {
     }
 }
 
-@media (max-width: 1280px) {
+
+
+@media (min-width: 1280px) {
     .timelineitem {
         width: 250px;
         height: 250px;

@@ -1,0 +1,253 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* main styles*/
+
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    background-color: #363333;
+}
+
+header {
+    background-color: #363333;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.logotitle {
+    width: 65%;
+    position: relative;
+    left: 30%;
+
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background-color: #363388;
+
+    width: 100%;
+    transform: scale(1, 0);
+    transition: transform 250ms ease-in-out;
+    transform-origin: top;
+
+}
+
+h1 {
+    color: #F6ECE9;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    left: 43%;
+}
+
+h2 {
+    color: #F6ECE9;
+}
+
+h3 {
+    color: #F6ECE9;
+    margin: 0;
+
+}
+
+
+
+
+
+
+p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #F6ECE9;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+nav a {
+    color: #F6ECE9;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+
+form {
+    display: inline-block;
+    margin: auto;
+    align-content: center;
+
+
+
+}
+
+
+/*class styles*/
+
+
+.email {
+    font-size: 16px;
+    color: #F6ECE9;
+
+}
+
+.enter {
+    margin-top: 20px;
+
+}
+
+.buytickets {
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    bottom: 17px;
+    color: #F6ECE9;
+    text-align: center;
+    right: 10px;
+
+
+
+}
+
+.buytickets:hover {
+    color: black;
+}
+
+
+
+
+.content {
+    position: relative;
+    top: 150px;
+    margin: 10px;
+
+}
+
+.speakercard {
+    position: relative;
+    width: 50%;
+    left: 15%;
+    display: inline-block;
+    margin: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.speaker-photo {
+    width: 120%;
+    text-align: center;
+}
+
+.details {
+    margin: 0;
+    text-align: left;
+    position: relative;
+    left: 24%;
+}
+
+button {
+    font-size: 100%;
+    float: right;
+}
+
+.button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+
+}
+
+
+
+/* navigation */
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    color: #F6ECE9;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-toggle-label:hover {
+    color: black;
+}
+
+
+
+
+
+nav a:hover {
+    color: black;
+}
+
+.nav-toggle:checked~nav {
+    transform: scale(1, 1);
+}
+
+.nav-toggle:checked~nav a {
+    opacity: 1;
+    transition: opacity 150ms ease-in-out 250ms;
+}
+
+/* media queries*/
+
+@media (min-width: 800px) {
+
+    body {
+        padding: 100px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .logo {
+        left: 3%;
+    }
+
+    .speakercard {
+        width: 20%;
+    }
+
+    header {
+        width: 40%;
+    }
+}

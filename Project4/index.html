@@ -17,19 +17,20 @@
         <header>
 
 
-
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Speakers</a></li>
-                    <li><a href="#">Schedule</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <label for="nav-toggle" class="nav-toggle-label">
-                <span>Menu</span>
-            </label>
+            <div class="menuwrapper">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <nav>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Speakers</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span>Menu</span>
+                </label>
+            </div>
             <h1>NDC</h1>
             <a href="#" class="buytickets">Buy Tickets</a>
         </header>
@@ -41,6 +42,7 @@
             <section id="about">
 
                 <h2>About</h2>
+
                 <p>A conference to discuss the numerous unqiue design jobs and postions available to up-and-coming
                     designers. 3 speakers will discuss their unique jobs design and talk about their craft and career
                 </p>
@@ -67,7 +69,7 @@
                 <div class="speakercard">
                     <img src="images/speaker3_variant4.png" class="speaker-photo" alt="annieatkinsphoto">
                     <div class="details">
-                        <h3>Annie Atkins</h3>
+                        <h3>Kyle Bean</h3>
                         <p>Designer and 3d illustrator who works with unqiue handcrafted designs.</p>
                     </div>
                 </div>
@@ -85,18 +87,19 @@
             </section>
             <section id="contact">
                 <h2>Contact</h2>
-                <i class="fab fa-twitter"></i>
-                <p>nichedesignconference</p>
-                <i class="fab fa-instagram"></i>
-                <p>nichedesign</p>
                 <form>
                     <h3>Sign Up For Email Updates</h3>
-                    <label for=”name” class="email">Name</label>
-                    <input id=”name” type=”text”>
-                    <label for=”email” class="email">Email</label>
-                    <input id=”email” type=”email” required>
-                    <button type=”submit” class="enter">Enter</button>
+                    <div class="inputwrapper"><label for=”name” class="email">NAME</label>
+                        <input id=”name” type=”text”></div>
+                    <div class="inputwrapper"><label for=”email” class="email">EMAIL</label>
+                        <input id=”email” type=”email” required></div>
+                    <button type=”submit” class="button-reset enter">Enter</button>
                 </form>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+
 
             </section>
 

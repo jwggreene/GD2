@@ -13,104 +13,109 @@
 </head>
 
 <body>
-    <main class="container">
-        <header>
+    <div class="wrapper">
+        <main class="container">
+            <header>
+                <h1 class="logo">Niche Design Conference</h1>
 
-
-            <div class="menuwrapper">
                 <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
                 <nav>
                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Speakers</a></li>
-                        <li><a href="#">Schedule</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a> </li>
+                        <li><a href="#speakers">Speakers</a> </li>
+                        <li><a href="#schedule">Schedule</a> </li>
+                        <li><a href="#contact">Contact</a> </li>
+                        <li><a href="#">Buy Tickets</a> </li>
                     </ul>
                 </nav>
+
                 <label for="nav-toggle" class="nav-toggle-label">
-                    <span>Menu</span>
+                    <span>MENU</span>
                 </label>
+            </header>
+
+
+            <div class="content">
+                <section id="about">
+
+                    <h2>About</h2>
+
+                    <p>The Niche Design Conference is an event to discuss the numerous unqiue design jobs and postions
+                        available to up-and-coming
+                        designers. 3 speakers will discuss their unique jobs design and talk about their craft and
+                        career.</p>
+                    <p>Location: Baltimore Convention Center</p>
+                    <p>Date: July 10th</p>
+                </section>
+                <section id="speakers">
+                    <h2>Speakers</h2>
+                    <div class="speakercard">
+                        <img src="images/speaker1_variant4.png" class="speaker-photo" alt="annieatkinsphoto">
+                        <div class="details">
+                            <h3>Annie Atkins</h3>
+                            <p>Graphic Designer for films
+                                such as Grand Budapest Hotel,
+                                and Boxtrolls.</p>
+                        </div>
+                    </div>
+                    <div class="speakercard">
+                        <img src="images/speaker3_v2.png" class="speaker-photo" alt="annieatkinsphoto">
+                        <div class="details">
+                            <h3>Nicole Lazzaro</h3>
+                            <p>Nicole Lazzaro is a world-renowned game developer / designer who pioneered measuring
+                                emotions on players faces as they play.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speakercard">
+                        <img src="images/speaker3_variant4.png" class="speaker-photo" alt="annieatkinsphoto">
+                        <div class="details">
+                            <h3>Kyle Bean</h3>
+                            <p>Designer and 3d illustrator who works with unqiue handcrafted designs.</p>
+                        </div>
+                    </div>
+
+
+                </section>
+                <section id="schedule">
+                    <h2>Schedule</h2>
+                    <img src="images/linegraphic.svg" alt="">
+                    <p>10:30am - 11:45am - Annie Atkins: The Secret World of Design for Film</p>
+                    <img src="images/linegraphic.svg" alt="">
+                    <p>12:15pm - 1:15pm - Nicole Lazzaro: Using Emotions to Create Engaging Design</p>
+                    <img src="images/linegraphic.svg" alt="">
+                    <p>2:00pm - 3pm - Kyle Bean: Applying Personal Style for Brands</p>
+                </section>
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <form>
+                        <h4>Sign Up For Email Updates</h4>
+                        <div class="inputwrapper"><label for=”name” class="email">NAME</label>
+                            <input id=”name” type=”text”></div>
+                        <div class="inputwrapper"><label for=”email” class="email">EMAIL</label>
+                            <input id=”email” type=”email” required></div>
+                        <button type=”submit” class="button-reset enter">Enter</button>
+                    </form>
+
+
+
+
+                </section>
+                <footer>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <h5> Niche Design Conference</h5>
+                    <h5> niche@design.info</h5>
+                    <h5> (443) 999 9999</h5>
+
+
+                </footer>
             </div>
-            <h1>NDC</h1>
-            <a href="#" class="buytickets">Buy Tickets</a>
-        </header>
+        </main>
 
-        <div class="content">
-            <section id="title">
-                <img src="images/nichedesignlogo.svg" class="logotitle" alt="nichedesignlogo">
-            </section>
-            <section id="about">
-
-                <h2>About</h2>
-
-                <p>A conference to discuss the numerous unqiue design jobs and postions available to up-and-coming
-                    designers. 3 speakers will discuss their unique jobs design and talk about their craft and career
-                </p>
-            </section>
-            <section id="speakers">
-                <h2>Speakers</h2>
-                <div class="speakercard">
-                    <img src="images/speaker1_variant4.png" class="speaker-photo" alt="annieatkinsphoto">
-                    <div class="details">
-                        <h3>Annie Atkins</h3>
-                        <p>Graphic Designer for films
-                            such as Grand Budapest Hotel,
-                            and Boxtrolls.</p>
-                    </div>
-                </div>
-                <div class="speakercard">
-                    <img src="images/speaker2_variant4.png" class="speaker-photo" alt="annieatkinsphoto">
-                    <div class="details">
-                        <h3>Ryan Moldenhauer</h3>
-                        <p>Trained in graphic and web design, now the Director of Experience/Art Director for StudioMDHR
-                        </p>
-                    </div>
-                </div>
-                <div class="speakercard">
-                    <img src="images/speaker3_variant4.png" class="speaker-photo" alt="annieatkinsphoto">
-                    <div class="details">
-                        <h3>Kyle Bean</h3>
-                        <p>Designer and 3d illustrator who works with unqiue handcrafted designs.</p>
-                    </div>
-                </div>
-
-
-            </section>
-            <section id="schedule">
-                <h2>Schedule</h2>
-                <img src="images/linegraphic.svg" alt="">
-                <p>10:30am - 11:45am - Annie Atkins: The Secret World of Design for Film</p>
-                <img src="images/linegraphic.svg" alt="">
-                <p>12:15pm - 1:15pm - Ryan Moldenhauer: UI/UX for Video Games</p>
-                <img src="images/linegraphic.svg" alt="">
-                <p>2:00pm - 3pm - Kyle Bean: Applying Personal Style for Brands</p>
-            </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <form>
-                    <h3>Sign Up For Email Updates</h3>
-                    <div class="inputwrapper"><label for=”name” class="email">NAME</label>
-                        <input id=”name” type=”text”></div>
-                    <div class="inputwrapper"><label for=”email” class="email">EMAIL</label>
-                        <input id=”email” type=”email” required></div>
-                    <button type=”submit” class="button-reset enter">Enter</button>
-                </form>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                <a href="#"><i class="fab fa-instagram"></i></a>
-
-
-
-            </section>
-
-
-
-
-        </div>
-
-
-    </main>
-
+    </div>
 </body>
+
 
 </html>

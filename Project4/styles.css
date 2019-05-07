@@ -1,0 +1,290 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Css Variables */
+:root {
+    --background-color: #363333;
+    --font-color: #F6ECE9;
+    --font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+}
+
+/* Main Styles */
+
+.container {
+    width: 100%;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
+    margin: 0;
+}
+
+
+header {
+    background: var(--background-color);
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+
+
+
+h2 {
+    font-size: 1.8rem;
+    width: 10%;
+}
+
+h3 {
+    color: var(--font-color);
+    font-size: 20px;
+    margin: 0;
+
+}
+
+h4 {
+    color: var(--font-color);
+}
+
+
+h5 {
+    color: var(--font-color);
+    font-size: .8rem;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+i {
+    color: red;
+    display: inline;
+    font-size: 30px;
+    margin-bottom: 30px;
+    width: 20%;
+}
+
+p {
+    color: var(--font-color);
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+/* Class Styles */
+
+.content {
+    margin: 10px;
+    position: relative;
+    top: 150px;
+}
+
+.speakercard {
+    display: inline-block;
+    left: 15%;
+    margin: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+
+.speaker-photo {
+    text-align: center;
+    width: 120%;
+}
+
+.details {
+    left: 24%;
+    margin: 0;
+    position: relative;
+    text-align: left;
+}
+
+.logo {
+    color: var(--font-color);
+    font-size: 1rem;
+    font-family: var(--font-family);
+}
+
+.email {
+    color: var(--font-color);
+    font-size: 16px;
+
+}
+
+.enter {
+    background-color: #363388;
+    color: var(--font-color);
+    margin-top: 10px;
+    margin-right: 17px;
+    padding: 5px;
+
+}
+
+/* section styles */
+
+#about {
+    padding-bottom: 100px;
+}
+
+#speakers {
+    padding-bottom: 100px;
+}
+
+#schedule {
+    padding-bottom: 100px;
+}
+
+#contact {
+    padding-bottom: 100px;
+}
+
+
+
+/* Navigation Styles */
+
+nav {
+    background: #363388;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 200ms ease-in-out;
+    width: 100%;
+
+
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+}
+
+nav a {
+    color: var(--font-color);
+    font-size: 1.2rem;
+    opacity: 0;
+    text-decoration: none;
+    transition: opacity 150ms ease-in-out;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    align-items: center;
+    display: flex;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    height: 100%;
+    left: 0;
+    margin-left: 1em;
+    position: absolute;
+    top: 0;
+}
+
+nav a:hover {
+    color: black;
+
+}
+
+.nav-toggle:checked~nav {
+    transform: scale(1, 1);
+}
+
+.nav-toggle:checked~nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+/* media queries */
+@media (min-width: 800px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .content {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+
+
+    #about {
+        padding: 40px 0 40px 0;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr
+    }
+
+
+
+    .logo {
+        font-size: 1.3em;
+        grid-column: 2 / 3;
+        margin-top: 7px;
+    }
+
+    nav {
+        align-items: center;
+        all: unset;
+        display: flex;
+        grid-column: 3 / 4;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav li {
+        margin-bottom: 0;
+        margin-left: 3em;
+
+    }
+
+    nav a {
+        opacity: 1;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+
+
+    .content {
+        width: 40%;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    #about {
+        padding: 80px 0 80px 0;
+    }
+}

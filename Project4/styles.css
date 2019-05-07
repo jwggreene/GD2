@@ -38,8 +38,7 @@ header {
 
 
 h2 {
-
-    font-size: 30px;
+    font-size: 1.8em;
     width: 10%;
 }
 
@@ -57,9 +56,9 @@ h4 {
 
 h5 {
     color: var(--font-color);
-    font-size: 12px;
+    font-size: .8em;
     margin: 0;
-    padding-bottom: 5x;
+    padding-bottom: 5px;
 }
 
 i {
@@ -72,7 +71,7 @@ i {
 
 p {
     color: var(--font-color);
-    font-size: 17px;
+    font-size: 1em;
     line-height: 20px;
 }
 
@@ -181,7 +180,7 @@ nav li {
 
 nav a {
     color: var(--font-color);
-    font-size: 1.2rem;
+    font-size: 1.2em;
     opacity: 0;
     text-decoration: none;
     transition: opacity 150ms ease-in-out;
@@ -195,7 +194,7 @@ nav a {
     align-items: center;
     display: flex;
     font-family: var(--font-family);
-    font-size: 1rem;
+    font-size: 1em;
     height: 100%;
     left: 0;
     margin-left: 1em;

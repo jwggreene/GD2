@@ -9,6 +9,7 @@
     --background-color: #363333;
     --font-color: #F6ECE9;
     --font-family: 'Heebo', sans-serif;
+    font-size: 16px;
 }
 
 /* Main Styles */
@@ -38,7 +39,7 @@ header {
 
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.8rem;
     width: 10%;
 }
 
@@ -56,7 +57,7 @@ h4 {
 
 h5 {
     color: var(--font-color);
-    font-size: .8em;
+    font-size: .8rem;
     margin: 0;
     padding-bottom: 5px;
 }
@@ -71,7 +72,7 @@ i {
 
 p {
     color: var(--font-color);
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 20px;
 }
 
@@ -108,7 +109,7 @@ p {
 
 .logo {
     color: var(--font-color);
-    font-size: 1em;
+    font-size: 1rem;
     font-family: var(--font-family);
 }
 
@@ -180,7 +181,7 @@ nav li {
 
 nav a {
     color: var(--font-color);
-    font-size: 1.2em;
+    font-size: 1.2rem;
     opacity: 0;
     text-decoration: none;
     transition: opacity 150ms ease-in-out;
@@ -194,7 +195,7 @@ nav a {
     align-items: center;
     display: flex;
     font-family: var(--font-family);
-    font-size: 1em;
+    font-size: 1rem;
     height: 100%;
     left: 0;
     margin-left: 1em;
